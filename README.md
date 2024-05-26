@@ -24,13 +24,13 @@ This project is an Online Banking System implemented using Java Swing. The syste
 - Java Development Kit (JDK) installed on your system.
 - Integrated Development Environment (IDE) such as NetBeans.
 - Basic understanding of Java Swing and JDBC for database connectivity.
-- SQLite for the database.
+- SQLlite for the database.
 
 ## Installation
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/yourusername/online-banking-system.git
+    git clone https://github.com/vishnuvvr-cloud/online-banking-system.git
     ```
 
 2. **Open the Project in NetBeans**:
@@ -58,10 +58,9 @@ This project is an Online Banking System implemented using Java Swing. The syste
     - Select `Run`.
 
 ## Usage
-
-1. **Run the Application**:
+ [Note : You can't change your account number , MICR number , Username]
+1. **Run the Application**
     
-
 2. **Login/Create Account**:
     - On the login page, either enter your credentials to log in or click on the "Create New Account" button to create a new account.
 
