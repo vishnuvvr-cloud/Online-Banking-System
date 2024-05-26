@@ -74,11 +74,10 @@ This project is an Online Banking System implemented using Java Swing. The syste
 ## Code Structure
 
 - `src/`
-  - `Main.java`: Entry point of the application.
-  - `LoginPage.java`: Handles the login and account creation.
-  - `Dashboard.java`: Main dashboard after logging in, where users can manage their accounts.
-  - `Account.java`: Account class representing the user's account.
-  - `Database.java`: Handles database connectivity and operations.
+  - `Authentication.java`: Handles the login and account creation.
+  - `Account.java`: Here user can make new account creation.
+  - `MyPage.java`: Main dashboard after logging in, where users can manage their accounts.
+  - `dbconnect.java`: Handles database connectivity and operations.
 
 ## Contributing
 
@@ -87,12 +86,6 @@ This project is an Online Banking System implemented using Java Swing. The syste
 3. Commit your changes: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin feature/feature-name`.
 5. Open a pull request.
-
-
-## Acknowledgments
-
-- Thanks to the contributors of the open-source libraries and frameworks used in this project.
-- Special thanks to the Java Swing, JDBC, and SQLite documentation for providing detailed guides and examples.
 
 ## Contact Information
 For support or questions, please contact [chintavishnuvardhan@gmail.com](mailto:chintavishnuvardhan@gmail.com).
